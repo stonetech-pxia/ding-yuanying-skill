@@ -39,26 +39,60 @@
 在 Claude Code 里依次运行：
 
 ```
-/plugin marketplace add YOUR_GITHUB_USERNAME/ding-yuanying-skill
+/plugin marketplace add stonetech-pxia/ding-yuanying-skill
 ```
 
 ```
 /plugin install ding-yuanying@ding-yuanying
 ```
 
-### 方式二：手动放进 skills 目录
-
-全局可用（所有项目）：
+也可以直接在终端里装：
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/ding-yuanying-skill.git ~/.claude/skills/ding-yuanying
+claude plugin marketplace add stonetech-pxia/ding-yuanying-skill
 ```
 
-只在某个项目里用：把仓库克隆或复制到该项目的 `.claude/skills/ding-yuanying/`。
+```bash
+claude plugin install ding-yuanying@ding-yuanying
+```
+
+装好后重启 Claude Code，或在会话里运行 `/reload-plugins`。
+
+以后更新到最新版：
+
+```bash
+claude plugin marketplace update ding-yuanying
+```
+
+```bash
+claude plugin update ding-yuanying@ding-yuanying
+```
+
+### 方式二：手动放进 skills 目录
+
+全局可用（所有项目）——macOS / Linux / Git Bash：
+
+```bash
+git clone https://github.com/stonetech-pxia/ding-yuanying-skill.git ~/.claude/skills/ding-yuanying
+```
+
+Windows PowerShell：
+
+```powershell
+git clone https://github.com/stonetech-pxia/ding-yuanying-skill.git "$env:USERPROFILE\.claude\skills\ding-yuanying"
+```
+
+只在某个项目里用：在项目根目录运行
+
+```bash
+git clone https://github.com/stonetech-pxia/ding-yuanying-skill.git .claude/skills/ding-yuanying
+```
+
+以后更新：在克隆下来的目录里运行 `git pull`。
 
 ### 方式三：Claude 网页版 / 桌面版
 
-把仓库文件夹打成 zip，在 Claude 的技能（Skills）设置里上传。具体入口以 Claude 当前的界面为准。
+下载 [仓库 zip](https://github.com/stonetech-pxia/ding-yuanying-skill/archive/refs/heads/main.zip)，在 Claude 的技能（Skills）设置里上传。具体入口以 Claude 当前的界面为准。
 
 ## 使用
 
