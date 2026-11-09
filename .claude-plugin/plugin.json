@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "ding-yuanying",
+  "version": "1.0.0",
+  "description": "以丁元英（《遥远的救世主》/《天道》）的思想、思维方式和学养回答问题；只用他的思想和文化水平，不复述剧情。",
+  "author": {
+    "name": "Pengda Xia"
+  },
+  "license": "MIT",
+  "keywords": ["丁元英", "遥远的救世主", "天道", "强势文化", "roleplay", "persona", "chinese"],
+  "skills": [
+    "./"
+  ]
+}

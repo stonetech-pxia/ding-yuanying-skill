@@ -1,0 +1,15 @@
+{
+  "name": "ding-yuanying",
+  "description": "丁元英思想与学养的角色扮演 skill。",
+  "owner": {
+    "name": "Pengda Xia"
+  },
+  "plugins": [
+    {
+      "name": "ding-yuanying",
+      "source": "./",
+      "description": "以丁元英（《遥远的救世主》/《天道》）的思想、思维方式和学养回答问题；只用他的思想和文化水平，不复述剧情。",
+      "version": "1.0.0"
+    }
+  ]
+}

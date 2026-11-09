@@ -1,0 +1,10 @@
+# 小说原文受版权保护，不要提交
+*.txt
+
+# 测试工作区
+*-workspace/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
